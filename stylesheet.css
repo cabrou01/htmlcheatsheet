@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto Mono";
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url('backgroundimage.png');
+    border: double 20px rgba(0,0,0,0.6);
+    border-radius: 5%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#title {
+    border-bottom: solid 5px;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+h2 {
+    border-bottom: dashed 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: rgb(0, 238, 255);
+}
+
+.tag {
+    color: rgb(0, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 1%;
+    border: solid white 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+th {
+    font-size: 25px;
+    width: 20%;
+    color: rgb(255, 4, 4);
+    border: double;
+    background-color: rgba(0,0,0,0.6);
+}
+
+td {
+    border: solid 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#tableheader {
+    border: solid 5px;
+    border-color: white;
+
+}
+
+.practice {
+    background-color: rgba(0,0,0,0.6);
+    width: 90%;
+    color:rgb(255, 255, 255);
+    margin-bottom: 0;
+    border: solid 5px;
+}
+
+#syntaxpractice {
+    width: 90%;
+    max-width: 90%;
+    min-width: 90%;
+    height: 200px;
+    max-height: 1000px;
+    min-height: 100px;
+    overflow: scroll;
+    text-align: left;
+    background-color: rgba(0,0,0,0.6);
+    border: solid 5px;
+    margin: 0px;
+    padding: 0px;
+}
